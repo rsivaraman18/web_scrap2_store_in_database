@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import sqlite3 
-
 def createdb():
     con = sqlite3.connect('Imdb_movies.db')
     cur = con.cursor()
