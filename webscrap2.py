@@ -20,7 +20,7 @@ def createdb():
             )
         """
     cur.execute(query)
-    con.commit()
+    con.commit() 
     print('Imdb_movies Database & New Table tamilmovie Created Successfully ')
 createdb()
   
